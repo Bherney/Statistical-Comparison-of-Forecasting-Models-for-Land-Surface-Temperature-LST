@@ -74,6 +74,6 @@ Waheeb, T.B.. (2025). Statistical Comparison of Forecasting Models for Land Surf
 
 Clone the repository:
    ```bash
-   git clone https://github.com/bherney/Statistical-Comparison-of-Forecasting-Models-for-Land-Surface-Temperature-.git
-   cd Statistical-Comparison-of-Forecasting-Models-for-Land-Surface-Temperature-
+   git clone https://github.com/bherney/Statistical-Comparison-of-Forecasting-Models-for-Land-Surface-Temperature.git
+   cd Statistical-Comparison-of-Forecasting-Models-for-Land-Surface-Temperature
 
