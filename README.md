@@ -1,4 +1,4 @@
-# Statistical Comparison of Forecasting Models for Land Surface Temperature (LST)
+# Statistical Comparison of Forecasting Models for Land Surface Temperature (LST) in Nigeria
 
 The study assesses their predictive performance in forecasting **Land Surface Temperature (LST) across Nigerian states** using RMSE values.This repository contains data, scripts, and plots for the **statistical evaluation of three forecasting models**:
 
@@ -25,7 +25,7 @@ To evaluate whether the models differed significantly in predictive performance:
 - **Chi-Square statistic**: 47.19  
 - **p-value**: < 0.0001  
 
-✅ Strong rejection of the null hypothesis → Not all models performed equally.
+Strong rejection of the null hypothesis → Not all models performed equally.
 
 ---
 
@@ -33,9 +33,9 @@ To evaluate whether the models differed significantly in predictive performance:
 
 | Model Comparison | p-value   | Significance |
 |------------------|-----------|--------------|
-| Curve Fit vs. Exponential Smoothing | 0.00000 | ✅ Significant |
-| Curve Fit vs. Forest-Based Forecast | 0.00000 | ✅ Significant |
-| Exponential Smoothing vs. Forest-Based Forecast | 0.18901 | ❌ Not significant |
+| Curve Fit vs. Exponential Smoothing | 0.00000 | Significant |
+| Curve Fit vs. Forest-Based Forecast | 0.00000 | Significant |
+| Exponential Smoothing vs. Forest-Based Forecast | 0.18901 | Not significant |
 
 ---
 
@@ -51,9 +51,8 @@ To evaluate whether the models differed significantly in predictive performance:
 
 To visualize the average ranks and statistical significance, a **Critical Distance diagram** was generated using the Nemenyi test.  
 
-![Critical Distance Diagram](plot/cd_diagram.png)
+![Critical Distance Diagram](plot/Critical_Difference_Diagram.png)
 
-- Models connected by a horizontal bar are **not significantly different**.  
 - The diagram shows that **Exponential Smoothing** and **Forest-Based Forecast** are statistically similar, while **Curve Fit** stands apart with worse performance.
 
 ---
@@ -69,6 +68,6 @@ Waheeb, T.B.. (2025). Statistical Comparison of Forecasting Models for Land Surf
 
 Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/forecasting-comparison.git
-   cd forecasting-comparison
+   git clone https://github.com/bherney/Statistical Comparison of Forecasting Models for Land Surface Temperature.git
+   cd Statistical-Comparison-of-Forecasting-Models-for-Land-Surface-Temperature
 
