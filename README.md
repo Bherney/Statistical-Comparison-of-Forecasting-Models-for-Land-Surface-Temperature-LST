@@ -12,10 +12,12 @@ The study assesses their predictive performance in forecasting **Land Surface Te
 
 ## 📂 Repository Structure
 
-├── data/       # Input datasets (RMSE values, forecasts, etc.)
-├── plot/       # Generated figures (model performance plots, CD diagram, etc.)
-├── script/     # Analysis scripts (Friedman test, Nemenyi post-hoc test, etc.)
-└── README.md   # Documentation
+- [**data/**](/data/) → # Input datasets (RMSE values
+- [**plot/**](datafile/) → # Generated figures (model performance heatmap, CD diagram, etc.) 
+- [**script/**](script/) → # Analysis scripts (Friedman test, Nemenyi post-hoc test, etc.)  
+- [**README.md**](README.md) → # Project documentation
+
+---
 
 # Statistical Analysis
 
@@ -57,17 +59,24 @@ To visualize the average ranks and statistical significance, a **Critical Distan
 
 ---
 
+## Output Visualizations
+- Heatmap of Nemenyi Post-Hoc Test → [View Here](plot/heatmap.png)
+- Critical Difference Diagram → [View Here](plot/Critical_Difference_Diagram.png)
+
+---
+
 ## Citation
 
 If you use this repository, please cite it as:
 
 Waheeb, T.B.. (2025). Statistical Comparison of Forecasting Models for Land Surface Temperature (LST) in Nigeria. GitHub repository. 
 
+---
 
 ## How to Reproduce
 
 Clone the repository:
    ```bash
-   git clone https://github.com/bherney/Statistical Comparison of Forecasting Models for Land Surface Temperature.git
+   git clone https://github.com/bherney/Statistical-Comparison-of-Forecasting-Models-for-Land-Surface-Temperature.git
    cd Statistical-Comparison-of-Forecasting-Models-for-Land-Surface-Temperature
 
