@@ -23,7 +23,7 @@ The study assesses their predictive performance in forecasting **Land Surface Te
 
 To evaluate whether the models differed significantly in predictive performance:
 
-### 🔹 Friedman Test
+### Friedman Test
 - **Chi-Square statistic**: 47.19  
 - **p-value**: < 0.0001  
 
@@ -31,7 +31,7 @@ Strong rejection of the null hypothesis → Not all models performed equally.
 
 ---
 
-### 🔹 Nemenyi Post-Hoc Test
+### Nemenyi Post-Hoc Test
 
 | Model Comparison | p-value   | Significance |
 |------------------|-----------|--------------|
@@ -52,16 +52,13 @@ Strong rejection of the null hypothesis → Not all models performed equally.
 ## Critical Distance (CD) Diagram
 
 To visualize the average ranks and statistical significance, a **Critical Distance diagram** was generated using the Nemenyi test.  
-
-![Critical Distance Diagram](plot/Critical_Difference_Diagram.png)
-
 - The diagram shows that **Exponential Smoothing** and **Forest-Based Forecast** are statistically similar, while **Curve Fit** stands apart with worse performance.
 
 ---
 
 ## Output Visualizations
-- Heatmap of Nemenyi Post-Hoc Test → [View Here](plot/heatmap.png)
-- Critical Difference Diagram → [View Here](plot/Critical_Difference_Diagram.png)
+- Heatmap of Nemenyi Post-Hoc Test → [View Here](plots/heatmap.png)
+- Critical Difference Diagram → [View Here](plots/Critical_Difference_Diagram.png)
 
 ---
 
@@ -77,6 +74,6 @@ Waheeb, T.B.. (2025). Statistical Comparison of Forecasting Models for Land Surf
 
 Clone the repository:
    ```bash
-   git clone https://github.com/bherney/Statistical-Comparison-of-Forecasting-Models-for-Land-Surface-Temperature.git
-   cd Statistical-Comparison-of-Forecasting-Models-for-Land-Surface-Temperature
+   git clone https://github.com/bherney/Statistical-Comparison-of-Forecasting-Models-for-Land-Surface-Temperature-.git
+   cd Statistical-Comparison-of-Forecasting-Models-for-Land-Surface-Temperature-
 
