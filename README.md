@@ -17,3 +17,59 @@ The study assesses their predictive performance in forecasting **Land Surface Te
 ├── plot/       # Generated figures (model performance plots, CD diagram, etc.)
 ├── script/     # Analysis scripts (Friedman test, Nemenyi post-hoc test, etc.)
 └── README.md   # Documentation
+
+# Statistical Analysis
+
+To evaluate whether the models differed significantly in predictive performance:
+
+### 🔹 Friedman Test
+- **Chi-Square statistic**: 47.19  
+- **p-value**: < 0.0001  
+
+✅ Strong rejection of the null hypothesis → Not all models performed equally.
+
+---
+
+### 🔹 Nemenyi Post-Hoc Test
+
+| Model Comparison | p-value   | Significance |
+|------------------|-----------|--------------|
+| Curve Fit vs. Exponential Smoothing | 0.00000 | ✅ Significant |
+| Curve Fit vs. Forest-Based Forecast | 0.00000 | ✅ Significant |
+| Exponential Smoothing vs. Forest-Based Forecast | 0.18901 | ❌ Not significant |
+
+---
+
+## Key Findings
+
+- **Curve Fit** performed **significantly worse** than both Exponential Smoothing and Forest-Based Forecast.  
+- **Exponential Smoothing** and **Forest-Based Forecast** showed **comparable performance** (no significant difference).  
+- Ensemble/advanced approaches (**Exponential Smoothing & Forest-Based**) are **more reliable for LST prediction** than Curve Fit.  
+
+---
+
+## Critical Distance (CD) Diagram
+
+To visualize the average ranks and statistical significance, a **Critical Distance diagram** was generated using the Nemenyi test.  
+
+![Critical Distance Diagram](plot/cd_diagram.png)
+
+- Models connected by a horizontal bar are **not significantly different**.  
+- The diagram shows that **Exponential Smoothing** and **Forest-Based Forecast** are statistically similar, while **Curve Fit** stands apart with worse performance.
+
+---
+
+## Citation
+
+If you use this repository, please cite it as:
+
+Waheeb, T.B.. (2025). Statistical Comparison of Forecasting Models for Land Surface Temperature (LST) in Nigeria. GitHub repository. 
+
+
+## How to Reproduce
+
+Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/forecasting-comparison.git
+   cd forecasting-comparison
+
