@@ -12,9 +12,9 @@ The study assesses their predictive performance in forecasting **Land Surface Te
 
 ## 📂 Repository Structure
 
-- [**data/**](/data/) → # Input datasets (RMSE values
-- [**plot/**](plot/) → # Generated figures (model performance heatmap, CD diagram, etc.) 
-- [**script/**](script/) → # Analysis scripts (Friedman test, Nemenyi post-hoc test, etc.)  
+- [**data/**](/data/) → # Input datasets (RMSE values)
+- [**plots/**](plots/) → # Generated figures (model performance heatmap, CD diagram) 
+- [**script/**](script/) → # Analysis scripts (Friedman test, Nemenyi post-hoc test)  
 - [**README.md**](README.md) → # Project documentation
 
 ---
